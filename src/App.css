@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: arial, sans-serif;
 }
 
 .App > * {
@@ -18,17 +19,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  gap: 0.5rem;
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: rgba(0, 0, 0, .87);
+  text-decoration: underline;
+  font-size: 13px;
 }
