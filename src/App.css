@@ -65,3 +65,20 @@
   border: 1px solid #dadce0;
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
+
+.App-main h1 span {
+  margin-right: -3px;
+  font-weight: 600;
+}
+.App-main h1 .red {
+  color: red;
+}
+.App-main h1 .blue {
+  color: blue;
+}
+.App-main h1 .yellow {
+  color: yellow;
+}
+.App-main h1 .green {
+  color: green;
+}
