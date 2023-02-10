@@ -82,3 +82,11 @@
 .App-main h1 .green {
   color: green;
 }
+
+.App-footer {
+  padding: 15px 30px;
+  font-size: 15px;
+  color: #70757a;
+  border-bottom: 1px solid #dadce0;
+  background: #f2f2f2;
+}

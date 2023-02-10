@@ -38,7 +38,9 @@ function App() {
         </section>
       </main>
 
-      <footer className="App-footer"></footer>
+      <footer className="App-footer">
+        France
+      </footer>
     </div>
   );
 }
