@@ -1,4 +1,6 @@
 import loupe from './loupe.svg';
+import micro from './micro.svg';
+import camera from './camera.js';
 import './App.css';
 
 function App() {
@@ -37,6 +39,12 @@ function App() {
             <img src={loupe} alt="Loupe" />
           </span>
           <input type="text" />
+          <span className="icon">
+            <img src={micro} alt="Micro" />
+          </span>
+          <span className="icon">
+            <img src={camera} width="20" height="20" alt="Camera" />
+          </span>
         </div>
         <section className="App-actions">
           <button>Recherche Google</button>
