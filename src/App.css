@@ -40,3 +40,28 @@
   font-size: 80px;
   margin-bottom: 1rem;
 }
+
+.App-main input {
+  padding: 10px 20px;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, .25);
+  width: 50%;
+  outline: none;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.App-actions button {
+  outline: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 0 16px;
+  margin: 12px 4px;
+  cursor: pointer;
+  height: 36px;
+}
+.App-actions button:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}

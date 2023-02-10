@@ -24,6 +24,11 @@ function App() {
 
       <main className="App-main">
         <h1>Google</h1>
+        <input type="text" />
+        <section className="App-actions">
+          <button>Recherche Google</button>
+          <button>J'ai de la chance</button>
+        </section>
       </main>
 
       <footer className="App-footer"></footer>
