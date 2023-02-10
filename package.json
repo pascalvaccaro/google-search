@@ -1,5 +1,6 @@
 {
   "name": "google-search",
+  "homepage": "https://pascalvaccaro.github.io/google-search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
