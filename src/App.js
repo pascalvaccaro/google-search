@@ -1,3 +1,4 @@
+import loupe from './loupe.svg';
 import './App.css';
 
 function App() {
@@ -31,7 +32,12 @@ function App() {
           <span className="green">l</span>
           <span className="red">e</span>
         </h1>
-        <input type="text" />
+        <div className="search">
+          <span className="icon">
+            <img src={loupe} alt="Loupe" />
+          </span>
+          <input type="text" />
+        </div>
         <section className="App-actions">
           <button>Recherche Google</button>
           <button>J'ai de la chance</button>
