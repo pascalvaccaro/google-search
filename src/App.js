@@ -22,7 +22,9 @@ function App() {
         </a>
       </header>
 
-      <main className="App-main"></main>
+      <main className="App-main">
+        <h1>Google</h1>
+      </main>
 
       <footer className="App-footer"></footer>
     </div>
